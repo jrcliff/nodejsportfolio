@@ -16,4 +16,17 @@ export const LeftSection = styled.div`
 
     margin: 0 auto;
   }
+  .avatar {
+    position: relative;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+  }
+  .avatar img {
+    width: 100%;
+    height: auto;
+  }
 `;
